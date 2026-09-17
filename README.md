@@ -4,7 +4,9 @@ A sports analytics project that estimates **the probability that one ATP tennis 
 another**, using 26 years of match data. It combines Elo ratings, serve and return statistics,
 recent form, fatigue and head-to-head records, and it was tested only on matches it had never seen.
 
-![Screenshot of the app](docs/app_screenshot.png)
+**[Try the live app](https://tennis-match-predictor-model.streamlit.app/)**
+
+[![Screenshot of the app](docs/app_screenshot.png)](https://tennis-match-predictor-model.streamlit.app/)
 
 ## Why I built this
 
@@ -169,6 +171,8 @@ python -m src.predict --replay "US Open" --year 2025 --round F
 4. Open **Advanced settings** and choose **Python 3.12 or newer**.
 5. Click **Deploy**. The first build takes a few minutes while the libraries install.
    Every later `git push` updates the app automatically.
+
+The live version of this project is at https://tennis-match-predictor-model.streamlit.app/
 
 ## Project structure
 
