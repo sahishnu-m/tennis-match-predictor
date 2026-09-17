@@ -1,0 +1,10 @@
+# Libraries this project needs. Install them with:
+#   pip install -r requirements.txt
+pandas>=3.0          # tables of data (DataFrames)
+numpy>=2.3           # fast math on arrays
+scikit-learn==1.9.1  # logistic regression + metrics (pinned: the saved model file needs this exact version)
+xgboost>=3.1         # gradient-boosted tree model
+matplotlib>=3.10     # charts
+shap>=0.50           # explains which features drove each prediction
+streamlit>=1.50      # turns a Python script into a web app
+altair>=5.5          # interactive charts inside the app (installed with streamlit anyway)

@@ -1,0 +1,27 @@
+feature,mean_abs_shap,label,group
+diff_blend_elo,0.5353782,Blended Elo rating,Ratings & ranking
+diff_log_rank,0.17725849,ATP ranking,Ratings & ranking
+diff_age,0.09902485,Age,Match context
+diff_surface_elo,0.095297754,Surface Elo rating,Ratings & ranking
+diff_total_points_won,0.06553265,Total points won %,Serve & return
+diff_days_since_last,0.05408854,Days since last match,"Fatigue, rust & injury"
+diff_serve_points_won,0.04440752,Serve points won %,Serve & return
+diff_elo,0.041425727,Overall Elo rating,Ratings & ranking
+diff_matches_14d,0.03632916,Matches played (last 14 days),"Fatigue, rust & injury"
+diff_bp_saved,0.034816824,Break points saved %,Serve & return
+best_of,0.029540015,Best of 3 or 5 sets,Match context
+diff_second_serve_in,0.025026118,2nd serve in %,Serve & return
+diff_wins_last10,0.022617055,Wins in last 10 matches,Recent form
+diff_ace_rate,0.022114938,Ace rate,Serve & return
+diff_h2h_wins,0.021947782,Head-to-head wins,Head-to-head
+diff_return_points_won,0.019436892,Return points won %,Serve & return
+min_career_matches,0.019343052,Experience of the less experienced player,Match context
+diff_bp_converted,0.017425708,Break points converted %,Serve & return
+diff_first_serve_won,0.017098963,1st serve points won %,Serve & return
+diff_first_serve_in,0.016509254,1st serve in %,Serve & return
+diff_minutes_14d,0.01461071,Minutes played (last 14 days),"Fatigue, rust & injury"
+diff_second_serve_won,0.013341172,2nd serve points won %,Serve & return
+h2h_matches,0.01269252,Previous meetings,Head-to-head
+diff_double_fault_rate,0.01129185,Double fault rate,Serve & return
+min_stats_matches,0.007065844,Stats history available,Match context
+diff_retirements_90d,0.0042987326,Retirements (last 90 days),"Fatigue, rust & injury"

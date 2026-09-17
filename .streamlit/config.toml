@@ -1,0 +1,18 @@
+# Look and feel of the Streamlit app.
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#fcfcfb"
+secondaryBackgroundColor = "#f3f2ee"
+textColor = "#0b0b0b"
+borderColor = "#e6e5e0"
+baseRadius = "8px"
+showWidgetBorder = true
+# Serif headings, like the Streamlit "movies" demo that inspired this app.
+# ("serif" and "sans-serif" are fonts built into Streamlit: Source Serif / Source Sans.)
+headingFont = "serif"
+font = "sans-serif"
+chartCategoricalColors = ["#2a78d6", "#eb6834", "#1baf7a"]
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,13 @@
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Downloaded / generated data (anyone can re-create it by running the scripts)
+data/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
