@@ -114,7 +114,7 @@ You need Python 3.11 or newer and Git.
 
 ```bash
 # 1. Get the code
-git clone https://github.com/mvkpsai-gif/tennis-match-predictor.git
+git clone https://github.com/sahishnu-m/tennis-match-predictor.git
 cd tennis-match-predictor
 
 # 2. Create a virtual environment and install the libraries
@@ -155,7 +155,7 @@ python -m src.predict --replay "US Open" --year 2025 --round F
    git add .
    git commit -m "Tennis match predictor"
    git branch -M main
-   git remote add origin https://github.com/mvkpsai-gif/tennis-match-predictor.git
+   git remote add origin https://github.com/sahishnu-m/tennis-match-predictor.git
    git push -u origin main
    ```
    The `data/` folder is ignored by `.gitignore` because it's large and can be re-downloaded.
@@ -163,7 +163,7 @@ python -m src.predict --replay "US Open" --year 2025 --round F
    `.streamlit/`, and all of those are included.
 2. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with GitHub.
 3. Click **Create app**, then **Deploy a public app from GitHub**, and fill in:
-   - **Repository:** `mvkpsai-gif/tennis-match-predictor`
+   - **Repository:** `sahishnu-m/tennis-match-predictor`
    - **Branch:** `main`
    - **Main file path:** `app.py`
 4. Open **Advanced settings** and choose **Python 3.12 or newer**.
