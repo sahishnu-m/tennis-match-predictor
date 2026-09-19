@@ -1,4 +1,4 @@
-# 🎾 Tennis Match Predictor
+# Tennis Match Predictor
 
 A sports analytics project that estimates **the probability that one ATP tennis player beats
 another**, using 26 years of match data. It combines Elo ratings, serve and return statistics,
